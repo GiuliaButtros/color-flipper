@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif, 'Arial Narrow', Arial, sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section#color-display{
+    height: 80px;
+    width: 200px;
+    margin: 200px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.384);
+    padding: 5px;
+    border-radius: 30px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#color-display h1{
+    padding: 5px;
+}
+
+section#color-display #new-color-button{
+    width: 80%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1em;
+}
