@@ -41,13 +41,14 @@ function getRandomHexString(stringLength){
     let hexString = ''; // variável string que será retornada
 
     for (let i=0; i < stringLength; i++){
-        hexString += getRandomHexString();
+        hexString += getRandomHexValue();
     }
 
     return hexString;
 }
 
 elementoBotaoNovaCor.addEventListener('click', function(){ // ao clicar, executa uma dada função
-    alert('ok');
-
+    const randomHexString = getRandomHexString(6);
+    alert(randomHexString);
+    
 })
