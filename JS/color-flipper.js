@@ -48,7 +48,9 @@ function getRandomHexString(stringLength){
 }
 
 elementoBotaoNovaCor.addEventListener('click', function(){ // ao clicar, executa uma dada função
-    const randomHexString = getRandomHexString(6);
-    alert(randomHexString);
-    
-})
+    const randomHexString = '#' + getRandomHexString(6); // # para que o CSS reconheça o valor hex
+
+    document.body.style.setProperty('background-color', randomHexString);
+
+    elementoCurrentColor.textContent = randomHexString;
+});

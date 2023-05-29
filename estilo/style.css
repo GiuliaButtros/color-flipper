@@ -6,9 +6,13 @@
     font-family:Georgia, 'Times New Roman', Times, serif, 'Arial Narrow', Arial, sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+body{
+    transition: background-color 0.5s;
+}
+
 section#color-display{
     height: 80px;
-    width: 200px;
+    width: 300px;
     margin: 200px auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.384);
     padding: 5px;
