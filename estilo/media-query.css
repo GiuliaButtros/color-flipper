@@ -10,20 +10,34 @@ Desktop: 992px até 1920px
 Grandes telas: acima de 1920px
 */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 400px) and (max-width: 992px) {
     section#color-display div#main-color{
-        height: 80px;
+        height: 150px;
         width: 300px;
 
         gap: 0px;
+    }
+
+    section#comp-colors div{
+        height: 150px;
+        width: 150px;
+
+        border-radius: 30px;
     }
 }
 
 @media screen and (min-width: 992px){
     section#color-display div#main-color{
-        height: 80px;
+        height: 150px;
         width: 300px;
 
         gap: 0px;
+    }
+
+    section#comp-colors div{
+        height: 150px;
+        width: 150px;
+
+        border-radius: 30px;
     }
 }

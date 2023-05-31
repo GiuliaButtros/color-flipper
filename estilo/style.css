@@ -31,7 +31,7 @@ section#color-display div#main-color{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px; /*adicionar no media query*/
+    gap: 20px; 
 }
 
 div#main-color h1{
@@ -60,36 +60,38 @@ span#current-color{
 section#comp-colors{
 
     display: flex;
+    justify-content: space-evenly;
 }
 
 section#comp-colors div{
     background-color: white;
     height: 150px;
-    width: 150px;
-    margin:auto;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.384);
-    padding: 5px;
-    border-radius: 50%;
-    text-align: center;
+    width: 120px;
 
+    padding: 5px;
+    border-radius: 30px;
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
     overflow: hidden;
+
 }
 
 section#comp-colors div h2{
     background-color: rgba(0, 0, 0, 0.384);
+    width: 100%;
     font-size: 1.2em;
     color: white;
-    border-radius: 30px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.384);
     padding: 5px;
+    line-height: 20px;
     
 }
 
 section#comp-colors div span{
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
