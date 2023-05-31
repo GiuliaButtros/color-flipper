@@ -54,3 +54,34 @@ elementoBotaoNovaCor.addEventListener('click', function(){ // ao clicar, executa
 
     elementoCurrentColor.textContent = randomHexString;
 });
+
+/*
+Os componentes RGB das cores A, B e C
+
+Exemplo: Se a1 = ff, a2 = 00 e a3 = 00 (ff0000), as complementares triadicas serão:
+
+b1=00 b2=ff b3=00 (00ff00) e c1=00 c2=00 c3=ff (0000ff)
+*/
+
+let a1, a2, a3, b1, b2, b3, c1, c2, c3;
+
+//FUNÇÃO para definir a1 a2 a3 aleatórios
+
+/*Transladar os componentes para achar as cores complementares
+
+b1 = a2;
+b2 = a3;
+b3 = a1; 
+
+c1 = a3;
+c2 = a1;
+c3 = a2;
+*/
+
+/* Juntar os componentes para formar as 3 cores
+
+let corA = a1+a2+a3;
+let corB = b1+b2+b3;
+let corC = c1+c2+c3;
+
+*/

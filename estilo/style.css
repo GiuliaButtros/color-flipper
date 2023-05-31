@@ -8,13 +8,20 @@
 
 body{
     transition: background-color 0.5s;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
 }
 
-section#color-display{
+
+section#color-display div#main-color{
     background-color: rgba(0, 0, 0, 0.200);
     height: 200px;
     width: 150px;
-    margin: 200px auto;
+    margin: auto;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.384);
     padding: 5px;
     border-radius: 30px;
@@ -27,14 +34,14 @@ section#color-display{
     gap: 20px; /*adicionar no media query*/
 }
 
-section#color-display h1{
+div#main-color h1{
     color: white;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.384);
     padding: 5px;
     line-height: 40px;
 }
 
-section#color-display #new-color-button{
+div#main-color #new-color-button{
     width: 80%;
     height: 40px;
     background-color: rgba(0, 0, 0, 0.384);
@@ -44,4 +51,45 @@ section#color-display #new-color-button{
     border: none;
     border-radius: 30px;
     font-size: 1.3em;
+}
+
+span#current-color{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+section#comp-colors{
+
+    display: flex;
+}
+
+section#comp-colors div{
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    margin:auto;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.384);
+    padding: 5px;
+    border-radius: 50%;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+section#comp-colors div h2{
+    background-color: rgba(0, 0, 0, 0.384);
+    font-size: 1.2em;
+    color: white;
+    border-radius: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.384);
+    padding: 5px;
+    
+}
+
+section#comp-colors div span{
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
