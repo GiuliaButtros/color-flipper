@@ -3,7 +3,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family:Georgia, 'Times New Roman', Times, serif, 'Arial Narrow', Arial, sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Times New Roman', Times, serif, 'Arial Narrow', Arial, sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body{
@@ -22,7 +22,7 @@ section#color-display div#main-color{
     height: 200px;
     width: 150px;
     margin: auto;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.384);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.384);
     padding: 5px;
     border-radius: 30px;
     text-align: center;
@@ -67,8 +67,9 @@ section#comp-colors div{
     background-color: white;
     height: 150px;
     width: 120px;
-
+    transition: background-color 0.5s;
     padding: 5px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.384);
     border-radius: 30px;
     text-align: center;
     display: flex;
@@ -76,7 +77,6 @@ section#comp-colors div{
     justify-content: space-evenly;
     align-items: center;
     overflow: hidden;
-
 }
 
 section#comp-colors div h2{
